@@ -1,0 +1,1007 @@
+body {
+    margin: 0px 0px;
+    padding: 0px;
+    background-color: #E7E7E7;
+}
+
+.nav {
+    height: 70px;
+    width: 100%;
+    background-color: #F6F6F6;
+    display: flex;
+    /* border-bottom: 2px solid rgb(245, 238, 238); */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;; */
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0px 3vw; */
+    /* position: relative; */
+    /* bottom: 21px; */
+}
+
+@font-face {
+    font-family: regular;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+.nav>h1 {
+
+    font-size: 1.5vw;
+}
+
+.nav-text {
+    color: #00AA2f;
+    font-family: regular;
+    margin-bottom: 20px;
+    display: flex;
+    padding-right: 2vw;
+    gap: 3vw;
+    font-size: 0.8vw !important;
+    font-weight: 1000;
+
+}
+
+.nav-text>h6 {
+    margin-top: 13px;
+}
+
+
+.nav-text>button {
+    font-family: regular;
+    font-size: 20px;
+    background-color: #00AA2F;
+    color: white;
+    border: #00AA2F;
+    border-radius: 10px;
+}
+
+.contact {
+    width: 160px;
+    height: 45px;
+}
+
+
+
+.menu-bar {
+    display: none;
+}
+
+
+@media only screen and (max-width : 1000px) {
+    .nav-text {
+        display: none;
+
+    }
+
+    .menu-bar {
+        display: block !important;
+        font-size: 4vw;
+        background-color: crimson;
+    }
+}
+
+
+@media only screen and (max-width:600px) {
+    .nav-text>h6 {
+        display: none;
+    }
+
+    .nav-text>button {
+        display: none;
+    }
+
+    .nav>h1 {
+        font-size: 5vw;
+    }
+
+    .menu-bar {
+        display: block;
+        font-size: 4vw;
+    }
+}
+
+
+
+.nav-heading {
+    width: 100%;
+    height: 400px;
+    background-color: #F4F4F4;
+}
+
+
+.bykea {
+    font-family: regular;
+    padding-top: 110px;
+    padding-left: 14px;
+    font-size: 2.3vw;
+    color: #02AA31;
+    font-weight: 900;
+
+}
+
+.reach {
+    font-family: regular;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 1.1vw;
+    font-weight: 300;
+
+}
+
+
+.ride {
+    font-size: 1.5vw;
+    display: flex;
+    gap: 18px;
+    padding-top: 130px;
+    padding-left: 25px;
+}
+
+
+
+.offers {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    height: 200px;
+    width: 40%;
+    padding-top: 50px;
+    padding-left: 35px;
+    /* display: flex; */
+}
+
+
+.main-offer {
+    object-fit: contain;
+    height: 407px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 171px;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    ;
+}
+
+
+.motor-bike {
+    font-family: regular;
+    color: #02AA31;
+    font-size: 2.6vw;
+    font-weight: 900;
+}
+
+
+.destination {
+    font-family: regular;
+    padding-bottom: 38px;
+}
+
+.read {
+    font-family: regular;
+    padding-left: 2px;
+    color: #02AA31;
+    font-weight: 800;
+
+}
+
+.ri-arrow-right-line {
+    font-size: 20px;
+    /* padding-top: 20px; */
+}
+
+.main-offer>img {
+    width: 40vw;
+}
+
+
+
+
+.carousel-inner {
+    padding-top: 50px;
+}
+
+
+
+@media only screen and (max-width:911px) {
+    .main-offer {
+        height: 659px;
+        width: 100%;
+        border: 1px solid white;
+
+    }
+
+    .main-offer>img {
+        width: 40vw;
+    }
+
+    .bykea {
+        font-size: 2.5vw;
+
+    }
+
+    .reach {
+        font-size: 1.4vw;
+
+    }
+
+    .WHY-CHOOSE-BYKEA {
+        /* line-height: 10px; */
+        /* justify-content: center; */
+        padding-left: 40px;
+    }
+}
+
+
+
+@media only screen and (max-width:695px) {
+    .main-offer>img {
+        width: 65vw;
+    }
+
+    .bykea {
+        font-size: 2.9vw;
+
+    }
+
+    .reach {
+        font-size: 1.6vw;
+
+    }
+}
+
+
+
+
+@media only screen and (max-width:580px) {
+
+    .Learn-about {
+        font-size: 1.9vw !important;
+    }
+
+    .main-offer>img {
+        width: 65vw;
+    }
+
+    .bykea {
+        font-size: 3.3vw;
+
+    }
+
+
+    .reach {
+        font-size: 2vw;
+
+    }
+
+    .ride {
+        font-size: 3.9vw;
+    }
+
+    .motor-bike {
+        font-size: 5.5vw;
+    }
+
+    .main-offer {
+        height: 691px;
+        width: 100%;
+        border: 1px solid white;
+
+    }
+}
+
+
+@media only screen and (max-width:488px) {
+    .main-offer>img {
+        width: 65vw;
+    }
+
+    .bykea {
+        font-size: 3.3vw;
+
+    }
+
+    .reach {
+        font-size: 2vw;
+
+    }
+
+    .adhayabhi {
+        width: 78vw !important;
+        padding-top: 45px;
+    }
+
+    .about-bykea {
+        font-size: 3.9vw !important;
+    }
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width:470px) {
+    .main-offer>img {
+        width: 65vw;
+    }
+
+    .bykea {
+        font-size: 3.3vw;
+
+    }
+
+    .reach {
+        font-size: 2vw;
+
+    }
+
+    .ride {
+        font-size: 3.9vw;
+    }
+
+    .motor-bike {
+        font-size: 5.5vw;
+    }
+
+    .main-offer {
+        height: 691px;
+        width: 100%;
+        border: 1px solid white;
+
+    }
+
+    .destination {
+        width: 100%;
+        font-size: 3vw;
+    }
+}
+
+
+
+
+@media only screen and (max-width:708px) {
+    .choose {
+        font-size: 1.9vw !important;
+    }
+
+    .prioritize {
+        font-size: 3.5vw !important;
+    }
+
+    .partners {
+        font-size: 2.3vw !important;
+
+    }
+
+    .background {
+        font-size: 2.3vw !important;
+
+    }
+
+    .maintain {
+        font-size: 3.5vw !important;
+
+    }
+
+    .ratings {
+        font-size: 2.3vw !important;
+
+
+    }
+
+    .experience {
+        font-size: 2.3vw !important;
+
+
+    }
+
+    .transparents {
+        font-size: 3.5vw !important;
+
+
+    }
+
+    .charges {
+        font-size: 2.3vw !important;
+
+
+    }
+
+    .per-used {
+        font-size: 2.3vw !important;
+
+
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:353px) {
+    .main-offer>img {
+        width: 65vw;
+    }
+
+    .bykea {
+        font-size: 3.8vw;
+
+    }
+
+    .reach {
+        font-size: 2.9vw;
+
+    }
+
+    .ride {
+        font-size: 3.7vw;
+    }
+
+    .motor-bike {
+        font-size: 5.6vw;
+    }
+
+    .main-offer {
+        height: 620px;
+        width: 100%;
+        border: 1px solid white;
+
+    }
+
+    .destination {
+        width: 100%;
+        font-size: 3vw;
+    }
+
+
+
+
+    .choose {
+        font-size: 3.9vw !important;
+    }
+
+    .prioritize {
+        font-size: 4.8vw !important;
+    }
+
+    .partners {
+        font-size: 2.9vw !important;
+        font-weight: 500 !important;
+
+    }
+
+    .background {
+        font-size: 2.9vw !important;
+        font-weight: 500 !important;
+
+    }
+
+    .maintain {
+        font-size: 4.8vw !important;
+    }
+
+    .ratings {
+        font-size: 2.5vw !important;
+        font-weight: 500 !important;
+
+
+    }
+
+    .experience {
+        font-size: 2.9vw !important;
+        font-weight: 500 !important;
+
+    }
+
+    .transparents {
+        font-size: 4.8vw !important;
+
+
+    }
+
+    .charges {
+        font-size: 2.5vw !important;
+        font-weight: 500 !important;
+
+    }
+
+    .per-used {
+        font-size: 2.9vw !important;
+        font-weight: 500 !important;
+
+    }
+
+
+    .adhayabhi {
+        width: 87vw !important;
+    }
+
+    .about-bykea {
+        font-size: 4.9vw !important;
+    }
+
+    .customer-share {
+        font-size: 2.5vw !important;
+    }
+
+    .community {
+        font-size: 4vw !important;
+    }
+}
+
+
+
+
+
+
+
+
+.WHY-CHOOSE-BYKEA {
+    flex-wrap: wrap;
+    display: flex;
+    padding-top: 20px;
+}
+
+.WHY-CHOOSE-BYKEA3 {
+    flex-direction: column;
+    padding-top: 190px;
+}
+
+.WHY-CHOOSE-BYKEA>img {
+    width: 54vw;
+}
+
+
+.choose {
+    /* padding-top: 180px; */
+    font-size: 1.3vw;
+    font-family: regular;
+    font-weight: 700;
+    color: grey;
+}
+
+
+.prioritize {
+    /* padding-top: 200px; */
+    font-size: 2.7vw;
+    font-family: regular;
+    font-weight: 700;
+    /* color: grey; */
+    padding-bottom: 10px;
+}
+
+
+.partners {
+    line-height: 7px;
+    font-family: regular;
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+
+.background {
+    font-family: regular;
+    font-size: 1.5vw;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+
+.maintain {
+    font-size: 2.7vw;
+    font-family: regular;
+    font-weight: 700;
+    /* color: grey; */
+    padding-bottom: 7px;
+}
+
+
+
+.ratings {
+    font-family: regular;
+    font-size: 1.4vw;
+    font-weight: 400;
+    line-height: 7px;
+}
+
+
+.experience {
+    font-family: regular;
+    font-size: 1.4vw;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+
+.transparents {
+    font-size: 2.7vw;
+    font-family: regular;
+    font-weight: 700;
+    /* color: grey; */
+    padding-bottom: 7px;
+}
+
+
+.charges {
+    font-family: regular;
+    font-size: 1.4vw;
+    font-weight: 400;
+    /* padding-bottom: 5px; */
+    line-height: 7px;
+}
+
+
+.per-used {
+    font-family: regular;
+    font-size: 1.4vw;
+    font-weight: 400;
+    padding-bottom: 55px;
+}
+
+
+
+.mangwana {
+    padding-top: 80px;
+    width: 98vw;
+}
+
+
+.first-card {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+
+
+.safety-card {
+    flex-wrap: wrap;
+    width: 40vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.access-card {
+    flex-wrap: wrap;
+    width: 40vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-read {
+    color: #02AA31;
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+
+
+.first-read {
+    color: #02AA31;
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+
+
+@media only screen and (max-width:666px) {
+    .card-read {
+        font-size: 1.9vw;
+    }
+
+
+    .first-read {
+        font-size: 1.9vw;
+    }
+
+    .build {
+        font-size: 1.9vw !important;
+    }
+
+    .view-opportunities {
+        font-size: 1.9vw !important;
+    }
+
+
+    .partners-card {
+        font-size: 1.9vw !important;
+    }
+
+
+    .customer-share {
+        font-size: 2.1vw !important;
+    }
+
+    .community {
+        font-size: 3.3vw !important;
+    }
+}
+
+
+
+@media only screen and (max-width:600px) {
+    .card-read {
+        font-size: 1.9vw;
+    }
+
+
+    .first-read {
+        font-size: 1.9vw;
+
+    }
+
+
+    .safety-card {
+        width: 80vw;
+        margin-bottom: 50px;
+    }
+
+    .access-card {
+        width: 80vw;
+    }
+
+
+    .first-card {
+        display: block;
+        /* justify-content: center !important; */
+        padding-left: 60px;
+    }
+
+    .careers-bykea {
+        width: 80vw !important;
+        margin-bottom: 50px !important;
+    }
+
+    .partners-bykea {
+        width: 80vw !important;
+        /* margin-bottom: 50px; */
+    }
+
+
+    .second-card {
+        display: block !important;
+        /* justify-content: center !important; */
+        padding-left: 60px;
+    }
+
+
+    .view-opportunities {
+        font-size: 1.9vw !important;
+
+    }
+
+    .partners-card {
+        font-size: 1.9vw !important;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width:444px) {
+    .card-read {
+        font-size: 2.5vw;
+    }
+
+
+    .first-read {
+        font-size: 2.5vw;
+
+    }
+
+
+    .safety-card {
+        width: 80vw;
+        margin-bottom: 50px;
+    }
+
+    .access-card {
+        width: 80vw;
+    }
+
+
+    .first-card {
+        display: block;
+        /* justify-content: center !important; */
+        padding-left: 30px;
+    }
+
+    .careers-bykea {
+        width: 80vw;
+        margin-bottom: 50px;
+    }
+
+    .partners-bykea {
+        width: 80vw;
+    }
+
+    .second-card {
+        display: block;
+        /* justify-content: center !important; */
+        padding-left: 30px;
+    }
+
+
+    .view-opportunities {
+        font-size: 2.5vw !important;
+
+    }
+
+    .partners-card {
+        font-size: 2.5vw !important;
+    }
+
+}
+
+
+
+@media only screen and (max-width:320px) {
+    .card-read {
+        font-size: 2.9vw;
+    }
+
+
+    .first-read {
+        font-size: 2.9vw;
+
+    }
+
+    .build {
+        font-size: 3.5vw !important;
+    }
+
+
+    .view-opportunities {
+        font-size: 2.9vw !important;
+
+    }
+
+    .partners-card {
+        font-size: 2.9vw !important;
+    }
+
+}
+
+
+
+@media only screen and (max-width:436px) {
+    .Learn-about {
+        font-size: 2.9vw !important;
+    }
+
+
+    .build {
+        font-size: 2.5vw !important;
+    }
+}
+
+
+
+.about-bykea {
+    padding-left: 60px;
+    padding-top: 130px;
+    font-family: regular;
+    font-size: 2.9vw;
+    font-weight: 800;
+}
+
+
+.about-bykea4 {
+    /* padding-left: 40px; */
+    width: 100%;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+
+.build {
+    font-family: regular;
+    padding-left: 10px;
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+
+
+.Learn-about {
+    /* padding-left: 10px; */
+    margin-left: 10px;
+    background-color: #242948;
+    color: white;
+    border: #242948;
+    border-radius: 10px;
+    height: 3.5vw;
+    width: 13vw !important;
+    font-size: 1.2vw !important;
+    font-family: regular;
+}
+
+
+
+.second-card {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+
+
+.careers-bykea {
+    flex-wrap: wrap;
+    width: 40vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.partners-bykea {
+    flex-wrap: wrap;
+    width: 40vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.view-opportunities {
+    color: #02AA31;
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+
+.partners-card {
+    color: #02AA31;
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+
+
+.customer-share {
+    font-size: 1.3vw;
+    color: grey;
+    font-family: regular;
+    font-weight: 600;
+    padding-top: 80px;
+    padding-left: 33px;
+}
+
+
+.community {
+    font-size: 2.5vw;
+    font-family: regular;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 28px;
+}
+
+
+.fullofstories {
+    width: 100%;
+    /* padding-left: 30px; */
+    padding-top: 30px;
+    padding-bottom: 86px;
+}
+
+
+
+.nav-footar {
+    background-color: #242948;
+    color: white !important;
+    padding-top: 50px !important;
+}
+
+
+
+@media only screen and (max-width:760px) {
+    .customer-share {
+        display: none !important;
+    }
+
+    .community {
+        display: none !important;
+
+    }
+
+    .fullofstories {
+        display: none !important;
+    }
+
+}
